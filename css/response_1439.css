@@ -1,0 +1,184 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 28px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 60px 0 80px;
+    }
+
+
+    .first_section .bg_left2
+    {
+        bottom: -200px;
+
+        width: 720px;
+        height: 461px;
+    }
+
+
+    .first_section .bg_right3
+    {
+        width: 720px;
+        height: 271px;
+    }
+
+
+    .first_section .bg_right2
+    {
+        right: -60px;
+
+        width: 480px;
+    }
+
+
+    .first_section > .blur
+    {
+        transform: translateX(-50%) scale(.7);
+    }
+
+
+    .first_section .wheel_wrap
+    {
+        padding-right: 48px;
+    }
+
+
+    .first_section .wheel
+    {
+        margin: -6%;
+
+        transform: scale(.88);
+    }
+
+
+    .first_section .data
+    {
+        padding-left: 80px;
+    }
+
+
+    .first_section .data .pre_title
+    {
+        font-size: 18px;
+
+        padding: 8px 16px;
+    }
+
+
+    .first_section .data .title
+    {
+        width: 464px;
+    }
+
+
+    .first_section .data .desc
+    {
+        font-size: 20px;
+
+        width: 372px;
+    }
+
+
+    .first_section .data .spin_btn
+    {
+        width: 340px;
+        margin-top: 36px;
+    }
+
+
+    .first_section .data .spin_btn span
+    {
+        height: 88px;
+    }
+
+
+    .first_section .data .exp
+    {
+        font-size: 14px;
+
+        width: 340px;
+        margin-top: 20px;
+    }
+
+
+
+    /*-----------
+        Rules
+    -----------*/
+    .rules
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .rules .row
+    {
+        gap: 60px;
+    }
+
+
+    .rules .bg1
+    {
+        top: -136px;
+
+        width: 245px;
+        margin-left: -640px;
+    }
+
+
+    .rules .bg2
+    {
+        top: -100px;
+
+        width: 260px;
+        margin-right: -664px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 680px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 24px;
+    }
+
+
+    .modal_desc
+    {
+        font-size: 15px;
+    }
+
+
+    .modal .btn
+    {
+        width: 340px;
+    }
+
+
+    .modal .btn span
+    {
+        height: 88px;
+    }
+}

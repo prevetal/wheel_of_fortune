@@ -1,0 +1,180 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 25px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 48px 0 80px;
+    }
+
+
+    .first_section .bg_left2
+    {
+        bottom: -160px;
+
+        width: 600px;
+        height: auto;
+    }
+
+
+    .first_section .bg_right3
+    {
+        bottom: -20px;
+
+        width: 600px;
+        height: auto;
+    }
+
+
+    .first_section .bg_right2
+    {
+        right: -48px;
+
+        width: 400px;
+    }
+
+
+    .first_section > .blur
+    {
+        bottom: -360px;
+
+        transform: translateX(-50%) scale(.6);
+    }
+
+
+    .first_section .wheel_wrap
+    {
+        justify-content: center;
+
+        padding-right: 12px;
+    }
+
+
+    .first_section .wheel
+    {
+        margin: -11%;
+
+        transform: scale(.78);
+    }
+
+
+    .first_section .data
+    {
+        padding-left: 60px;
+    }
+
+
+    .first_section .data .pre_title
+    {
+        font-size: 16px;
+    }
+
+
+    .first_section .data .title
+    {
+        width: 416px;
+    }
+
+
+    .first_section .data .desc
+    {
+        font-size: 18px;
+
+        width: 334px;
+    }
+
+
+    .first_section .data .spin_btn
+    {
+        width: 300px;
+        margin-top: 32px;
+    }
+
+
+    .first_section .data .spin_btn span
+    {
+        height: 80px;
+    }
+
+
+    .first_section .data .spin_btn:before,
+    .first_section .data .spin_btn:after
+    {
+        width: 90px;
+        height: 90px;
+    }
+
+
+    .first_section .data .exp
+    {
+        font-size: 12px;
+
+        width: 300px;
+    }
+
+
+
+    /*-----------
+        Rules
+    -----------*/
+    .rules .row
+    {
+        gap: 40px;
+    }
+
+
+    .rules .bg1
+    {
+        top: -124px;
+
+        width: 220px;
+        margin-left: -600px;
+    }
+
+
+    .rules .bg2
+    {
+        width: 220px;
+        margin-right: -600px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal .btn span
+    {
+        height: 80px;
+    }
+}

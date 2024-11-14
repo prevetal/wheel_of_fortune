@@ -1,0 +1,187 @@
+@media print,
+(max-width: 1023px)
+{
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 60px 0 80px;
+
+        background: #2c2c2c;
+    }
+
+
+    .first_section:before,
+    .first_section:after
+    {
+        display: none;
+    }
+
+
+    .first_section .bg_right2
+    {
+        right: 0;
+
+        width: auto;
+        height: 100%;
+
+        transform: translateX(20%);
+    }
+
+
+    .first_section .bg_left1,
+    .first_section .bg_left2,
+    .first_section .bg_right1,
+    .first_section .bg_right3,
+    .first_section > .blur
+    {
+        display: none;
+    }
+
+
+    .first_section .wheel_wrap
+    {
+        width: calc(100% + 24px);
+        margin-left: -24px;
+        padding: 0 0 0 24px;
+
+        border-radius: 0 60px 60px 0;
+        background: rgba(175, 82, 222, .75);
+
+                backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+
+
+    .first_section .wheel
+    {
+        margin: -8% auto;
+
+        transform: scale(.84);
+    }
+
+
+    .first_section .data
+    {
+        width: 480px;
+        margin: 60px auto 0;
+        padding-left: 0;
+
+        text-align: center;
+    }
+
+
+    .first_section .data.mob_data
+    {
+        display: block;
+
+        margin: 0 auto 48px;
+    }
+
+
+    .first_section .data .pre_title,
+    .first_section .data .title,
+    .first_section .data .desc
+    {
+        display: none;
+    }
+
+
+    .first_section .data.mob_data .pre_title
+    {
+        display: inline-block;
+    }
+
+
+    .first_section .data.mob_data .title,
+    .first_section .data.mob_data .desc
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+
+    .first_section .data .spin_btn
+    {
+        margin-top: 0;
+    }
+
+
+    .first_section .data .exp
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*-----------
+        Rules
+    -----------*/
+    .rules .row
+    {
+        gap: 24px;
+    }
+
+
+    .rules .item
+    {
+        width: 280px;
+    }
+
+
+    .rules .item.big
+    {
+        width: 364px;
+    }
+
+
+    .rules .bg1
+    {
+        top: -192px;
+        left: -12px;
+
+        width: 140px;
+        margin-left: 0;
+    }
+
+
+    .rules .bg2
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 640px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 22px;
+    }
+
+
+    .modal_desc
+    {
+        font-size: 14px;
+    }
+}

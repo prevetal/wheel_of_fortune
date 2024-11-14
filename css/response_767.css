@@ -1,0 +1,118 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 22px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 40px 0 68px;
+    }
+
+
+    .first_section .bg_right2
+    {
+        transform: translateX(28%);
+    }
+
+
+    .first_section .wheel_wrap
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        padding: 0 24px;
+    }
+
+
+    .first_section .wheel
+    {
+        margin: -24% -16%;
+
+        transform: scale(.64);
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .first_section .data.mob_data
+    {
+        margin-bottom: 40px;
+
+        text-align: left;
+    }
+
+
+    .first_section .data .pre_title
+    {
+        font-size: 14px;
+    }
+
+
+    .first_section .data .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-----------
+        Rules
+    -----------*/
+    .rules .row
+    {
+        gap: 24px;
+    }
+
+
+    .rules .item,
+    .rules .item.big
+    {
+        width: 100%;
+    }
+
+
+    .rules .bg1
+    {
+        top: -184px;
+        left: -40px;
+
+        width: 100px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
